@@ -1,16 +1,12 @@
-
-import React from 'react'
-import UseEffectHook from './Hooks/UseReducerHook.js/UseEffecctHook'
-
-
-
+import React from 'react';
+import UseRef from './Hooks/UseReftutorial/UseRef';
 
 const App = () => {
   return (
     <>
-    <UseEffectHook/>
+      <UseRef />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
